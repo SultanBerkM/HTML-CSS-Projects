@@ -1,0 +1,90 @@
+html{
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p{
+    padding-bottom: 0.5em;  
+    width: 40em; 
+}
+body{
+    background-color: rgb(238, 238, 238);
+
+}
+.page{
+    display: inherit;
+    padding: 2em 10em;
+    display: flex;
+    flex-wrap: wrap;
+}
+h1, h2{
+    font-family: Georgia, serif;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+.site-header{
+    
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid #000;
+    text-transform: uppercase;
+    flex: 0 0 100%;
+}
+img{
+    display: block;
+    border: 2px solid #000;
+    background-color: #fff;
+    padding: 0.5em;
+    border-radius: 0.2em;
+}
+blockquote{
+    font-family: Georgia, serif;
+    opacity: 0.5;
+    width: 60%;
+    margin: 2em;
+    padding-left: 2em;
+    float: right;
+    border-left: 4px solid #ccc;
+}
+blockquote p{
+    width: 20em;
+}
+.site-quaote-par{
+    flex: 0 0 40%;
+}
+.site-quaote{
+    flex: 0 0 30%;
+}
+
+
+.first-img{
+    float: right;
+    margin: 0.3em 0 0.2em 0.5em;
+}
+.second-img{
+    float: left;
+    margin: 0.3em 1.5em 0.2em 0;
+}
+.site-aside{
+    display: flex;
+    justify-content: flex-start;
+    flex: 2 8 30%;
+}
+.site-aside h1{
+    padding: 0.5em 0;
+}
+.site-aside ul{
+    padding-left: 0.3em ;
+}
+.site-aside ul li a{
+    padding: 0.1em;
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+.site-main{
+    display: flex;
+    flex: 0 2 70%;
+}

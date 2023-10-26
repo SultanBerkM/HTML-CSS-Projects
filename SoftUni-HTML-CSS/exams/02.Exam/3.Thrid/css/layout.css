@@ -1,0 +1,12 @@
+body{
+    background: url(../image/fitness-main.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center 1em;
+
+}
+.site{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}

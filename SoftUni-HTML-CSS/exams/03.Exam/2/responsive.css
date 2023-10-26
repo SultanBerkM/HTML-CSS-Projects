@@ -1,0 +1,15 @@
+@media(width <= 600px) {
+
+    header{
+    }
+    header .div-header{
+        display: none;
+        background-size: cover;
+    }
+    .options{
+        flex-direction: column
+    }
+    .options article{
+       flex: 0 0 100%;
+    }
+}

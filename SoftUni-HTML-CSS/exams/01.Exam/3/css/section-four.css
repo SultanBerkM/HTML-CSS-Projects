@@ -1,0 +1,56 @@
+.section-four header{
+    text-align: center;
+    padding-bottom: 2em;
+}
+.section-four h3{
+    text-align: center;
+    padding: 4em 0em 1em 0em;
+    font-size: 40px;
+}
+.section-four .tables{
+    display: flex;
+    flex-direction: column;
+    margin: 0 4em;
+    border-radius: 5px; 
+    gap: 2em;
+}
+
+.section-four .tables h4{
+    background:rgba(133, 220, 255, 1);
+    padding: 1em;
+    font-size: 30px;
+    font-weight: 600;
+
+    border: 2px solid #eee;
+    border-radius: 10px;
+    border-bottom: none;
+    border-bottom-left-radius: 0 ;
+    border-bottom-right-radius: 0;
+}
+.section-four .tables p{
+    padding: 1em;
+    font-size: 22px;
+    width: 61em;
+    height: 5em;
+    font-weight: 600;
+
+    border: 2px solid #eee;
+    border-top: none;
+    border-radius: 10px;
+    border-top-left-radius: 0 ;
+    border-top-right-radius: 0;
+}
+.section-four header h2{
+    font-weight: 900;
+    padding: 0.5em 0;
+}
+.section-four .photos{
+    display: flex;
+    justify-content: space-between;
+}
+.section-four .photos img{
+    display: block;
+    height: auto;
+    width: 20%;
+    padding: 0 0.8em;
+}

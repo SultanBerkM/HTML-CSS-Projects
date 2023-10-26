@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Semantic Flexbox</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .site{
+            border: 2px solid #000;
+            margin: 2em 7em;
+            padding: 2em;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5em;
+        }
+        .site > *{
+            padding: 1.5em;
+            border: 2px solid #999;
+            background-color: #eee;
+        }
+
+        .site-header, .site-footer{
+            flex: 0 1 100%
+        }
+        .site-aside{
+            flex: 0 0 10%;
+        }
+        .site-main{
+            flex: 1 1 auto;
+            order: 2;
+        }
+
+        .site-aside-1{
+            order: 1;
+        }
+        .site-aside-2{
+            order: 3;
+        }
+        .site-footer{
+            order: 4;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="site">
+        <header class="site-header">
+            <p>Header</p>
+        </header>
+        <main class="site-main">
+            <p>Main</p>
+        </main>
+        <aside class="site-aside-1">
+            <p>Aside 1</p>
+        </aside>
+        <aside class="site-aside-2">
+            <p>Aside 2</p>
+        </aside>
+        <footer class="site-footer">
+            <p>Footer</p>
+        </footer>
+    </div>
+   
+</body>
+</html>

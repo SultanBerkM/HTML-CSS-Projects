@@ -1,0 +1,35 @@
+.section-two{
+    display: flex;
+}
+.section-two figure img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.section-two figure{
+    flex: 0 0 50%;
+}
+.section-two .content{
+    flex: 0 0 50%;
+    background-color: #eee;
+}
+.section-two .content h4{
+    padding: 1em 0em 0.5em 1em;
+    color: #000
+}
+.section-two .content p{
+    padding: 0.2em 0em 1.5em 1.3em;
+    color: #000;
+    font-size: 20px;
+}
+.section-two .content ul{
+    list-style: none;
+    padding-left: 2em;
+}
+.section-two .content ul li{
+    padding-bottom: 1em;
+    font-size: 19px;
+}
+.section-two .content ul li i{
+    color: limegreen;
+}

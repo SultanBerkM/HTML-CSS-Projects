@@ -1,0 +1,44 @@
+.section-two{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.section-two .title{
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+.section-two .title h3{
+    padding: 1em 0;
+}
+.section-two .title p{
+    padding-bottom: 2em;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin: 0 auto;
+    width: 33em;
+    text-align: center;
+}
+.section-two .list-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: baseline;
+}
+.section-two .list-cards .card{
+    text-align: center;
+    margin: 0 auto;
+}
+.section-two .list-cards .card h4{
+    margin-bottom: 1em;
+}
+.section-two .list-cards .card p{
+    width: 20em;
+}
+.section-two .list-cards .card svg{
+    margin: 0 auto;
+    width: 40%;
+    height: 40%;
+    display: block;
+    margin-bottom: 2em;
+    fill: rgba(133, 220, 255, 1)
+}

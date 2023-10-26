@@ -1,0 +1,28 @@
+.section-four{
+    background-color: rgb(70, 191, 163);;
+}
+.section-four h3{
+    text-align: center;
+    padding: 1em 0;
+}
+.section-four .list{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    list-style: none;
+}
+.section-four .list li h4{
+    text-align: center;
+    font-size: 24px;
+}
+.section-four .list li p{
+    font-size: 20px;
+    text-align: center;
+    width: 18.60em;
+}
+.section-four p{
+    text-align: center;
+    padding: 2em 1em;
+    font-size: 24px;
+}

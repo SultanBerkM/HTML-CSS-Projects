@@ -1,0 +1,39 @@
+@import url(https://use.fontawesome.com/releases/v5.6.3/css/all.css);
+*{
+    padding: 0;
+    margin: 0;
+}
+.site-header.reversed{
+    flex-direction: row-reverse;
+}
+
+.site-header{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    justify-content: space-between;
+    padding: 1em 2em;
+    margin: 1em;
+    background-color: #eee;
+    border-radius: 1em;
+}
+.site-header, .site-header a {
+    color: #369;
+}
+.site-nav-bar ul{
+    display: flex;
+}
+.site-nav-bar li{
+    display: block;
+    
+}
+.site-nav-bar li a{
+    text-decoration: none;
+    padding: 1.1em 0.8em;
+}
+.site-nav-bar li a:hover{
+    color: black;
+    background-color: white;
+    border-top-left-radius: 0.5em ;
+    border-top-right-radius: 0.5em;
+}

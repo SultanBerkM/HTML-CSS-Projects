@@ -1,0 +1,19 @@
+html{
+    font-family: Helvetica, sans-serif;
+    margin: 3em;
+}
+nav{
+    display: inline-block;
+}
+h1{
+    display: inline-block;
+}
+li{
+    display: inline-block;
+    padding-inline: 1.5em;
+    
+}
+a{
+    text-decoration: none;
+    color: rgba(67, 113, 21, 0.689);
+}

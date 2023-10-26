@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 2em;
+    margin: 2em;
+    display: inherit;
+}
+.site-header{
+    display: flex;
+    border-bottom: 2px solid rgb(0,0,0);
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+.site-header h1{
+    padding-bottom: 0.5em;
+    text-transform: uppercase;
+}
+.site-header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 1em;
+}
+.site-header nav ul li a{
+    text-decoration: none;
+    color: rgb(0,153,0);
+}
+.site-main h1{
+   padding-top: 0.5em;
+}
+.site-main p{
+    padding: 0.5em 0;
+}

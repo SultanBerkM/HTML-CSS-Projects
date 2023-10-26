@@ -1,0 +1,38 @@
+.site-trainers{
+    margin-top: -5em;
+    background-color: #eee;
+}
+.trainer-title{
+    margin: 2em 0;
+    text-align: center;
+}
+.list-trainers{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+.list-trainers .trainer{
+    flex: 1 1 30%;
+}
+.list-trainers .trainer p{
+    width: 55%;
+    margin: 0 auto;
+    padding-bottom: 5em;
+}
+.list-trainers .trainer h6, h5{
+    padding: 0.3em 0;
+}
+.trainer h6{
+    color: red;
+}
+
+.site-trainers h2:after{
+    display: block;
+    content: '';
+    width: 1.5em;
+    height: 3px;
+    border: 2px;
+    background-color: red;
+    margin: 0 auto;
+    margin-top: 0.3em ;
+}

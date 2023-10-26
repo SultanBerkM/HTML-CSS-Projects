@@ -1,0 +1,53 @@
+.section-one{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background: rgba(133, 220, 255, 1);
+    
+}
+.section-one .content{
+    margin: 0 auto;
+    padding: 7em 0;
+    width: 38em;
+}
+.section-one .content p{
+    margin: 1.5em 0;
+}
+.section-one .image{
+    margin: 0 3em;
+    padding-right: 4em;
+}
+.section-one .image img{
+    display: block;
+    width: 115%;
+    height: auto;
+}
+.section-one .content .buttons{
+    margin-top: 2em;
+    display: flex;
+    gap: 2em;
+}
+.section-one .content .buttons li{
+    padding: 1em 4em;
+    list-style: none;
+    border: 1px solid #000;
+    border-radius: 0.5em;
+    font-weight: 600;
+    text-align: center;
+}
+.section-one .content .buttons .white{
+    background-color: #fff;
+    flex: 0 0 20%;
+}
+.section-one .content .buttons .black{
+    background-color: #000;
+    flex: 0 0 30%;
+}
+.section-one .content .buttons .white a{
+    color: #000;
+    text-decoration: none;
+}
+.section-one .content .buttons .black a{
+    text-decoration: none;
+    color: #fff;
+}

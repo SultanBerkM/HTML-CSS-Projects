@@ -1,0 +1,56 @@
+@media (width<=600px){
+    .navigation-header{
+        gap:1em
+    }
+    .navigation-header .navigation-nav{
+        display: none;
+    }
+    .home-portofolio.section-container{
+        padding-top: 85px;
+    }
+    .home-main .home-text{
+        display: none;
+    }
+    .home-tab-selector-cards-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .home-about.section-container{
+        padding-top: 40px ;
+        padding-bottom: 40px;
+    }
+    .home-process.section-container{
+        padding-top: 40px;
+    }
+    .home-image-container img{
+        display: none;
+    }
+    .home-text-container{
+        justify-content: center;
+    }
+    .home-text12{
+        width: auto;
+    }
+    .home-text10{
+        margin-right: 50px;
+    }
+    .home-links-container{
+        flex-direction: column;
+        gap: 1.8em;
+    }
+    .section-container{
+        padding-top: 40px;
+    }
+    .home-top-part{
+        flex-direction: column;
+    }
+    .home-text13{
+        padding-right: 3em;
+    }
+    .button-primary.button{
+        padding: 1.2rem 1.8rem;
+    }
+    .home-subscribe-container{
+        width: auto;
+    }
+}    

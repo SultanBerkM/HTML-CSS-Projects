@@ -1,0 +1,15 @@
+.footer{
+    display: flex;
+    background-color: #D01919;
+    margin-top: auto;
+    justify-content: space-between;
+    padding: 2em 0 ;
+    background-color: #fff;
+}
+.footer .socials{
+    display: flex;
+    gap:2em
+}
+.footer p{
+    font-weight: bold;
+}

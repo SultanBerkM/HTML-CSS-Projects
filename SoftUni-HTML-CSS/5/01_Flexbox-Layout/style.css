@@ -1,0 +1,26 @@
+body{
+    background-color: #eee;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.site-header,
+.site-main,
+.site-footer,
+.site-aside{
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 0.4rem;
+    color: #000; 
+    border: 1px solid #000;   
+}
+.site-footer, .site-header{
+    flex-basis: 100%
+}
+.site-main{
+   flex: 8 1 60%;
+}
+.site-aside{
+    flex: 2 1 auto ;
+    
+}

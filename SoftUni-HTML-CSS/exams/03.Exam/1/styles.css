@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+*{
+    padding:0;
+    margin: 0;
+}
+*,*:after, *:before{
+  box-sizing: inherit;  
+}
+html{
+    box-sizing: border-box;
+    font: 16px/1.2 'Courgette', cursive;
+    background: rgba(245, 245, 245, 1);
+    ;
+}
+.site{
+    width: 1200px;
+    margin: 0 auto;
+}
+header h1{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 1em;
+    padding-bottom: 5px;
+    letter-spacing: 6px;
+    font-weight: 400;
+}
+header p{
+    color: red;
+    padding: 0 26.5em;
+    font-size: 25px;
+    padding-bottom: 2em;
+    letter-spacing: 3px;
+}
+.list-cards{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 2em;
+}
+.list-cards .card{
+    flex: 1 1 30%;
+    background: #fff;
+    border-radius: 10px;
+}
+.list-cards .card h2{
+    text-align: center;
+    padding: 0.5em 0;
+}
+.list-cards .card h2:after{
+    display: block;
+    content: '';
+    width: 14em;
+    height: 2px;
+    border: 2px;
+    background-color: red;
+    margin: 0 auto;
+    margin-top: 0.3em ;
+}
+.list-cards .card p{
+    margin: 0 auto;
+    width: 21.1em;
+    text-align: center;
+    padding: 1em;
+}
+.list-cards .card img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.list-cards .card a{
+    text-decoration: none;
+    color: #000;
+}
+.list-cards .card .btn{
+    display: block;
+    text-align: center;
+    padding-bottom: 1em;
+}
+.btn.specific{
+    padding-top: 1em;
+}

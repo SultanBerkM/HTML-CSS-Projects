@@ -1,0 +1,38 @@
+.section-three{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.section-three .contents{
+    flex: 0 0 50%;
+}
+.section-three .photo{
+    flex: 0 0 50%;
+}
+.section-three .photo img, .section-three .contents img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+.section-three .contents .list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    list-style: none;
+    justify-content: center;
+}
+.section-three .contents  h3{
+    padding: 1em;
+    text-align: center;
+}
+.section-three .contents .list li{
+    width: 100px;
+    padding: 0 2em;
+    padding-top: 0.5em;
+    text-align: center;
+}
+.section-three .contents .list li p{
+    padding-top: 1em;
+    font-size: 20px;
+    color: rgb(70, 191, 163);
+    font-weight: 600;
+}

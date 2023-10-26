@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Positioning</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #eee;
+        }
+        .media{
+            padding: 2em;
+            max-width: 15em;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 0.3em 0 rgba(0, 0, 0, 0.7);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            overflow: hidden;
+        }
+        .photo{
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .photo img{
+            width: 100%;
+            height: auto;
+        }
+        .content{
+            position: relative;
+            z-index: 5;
+            color: #eee;
+        }
+    </style>
+</head>
+<body>
+    
+    <section class="media">
+        <div class="content">
+            <h1>Nasty, Nasty,  Nasty Nasty Nasty Nasty!</h1>
+            <p>Punani na Punani na...</p>
+        </div>
+        <figure class="photo">
+            <img src="https://images.unsplash.com/photo-1682687221080-5cb261c645cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1560&q=80" alt="Nasty">
+        </figure>
+
+    </section>
+</body>
+</html>

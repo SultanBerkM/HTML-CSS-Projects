@@ -1,0 +1,12 @@
+html{
+    font: 16px/1.2 'Arial', sans-serif;
+}
+p, li, a{
+    font-size: inherit;
+}
+h1{font-size: 3em;}
+h2{font-size: 2.4em;}
+h3{font-size: 1.8em;}
+h4{font-size: 1.4em;}
+h5{font-size: 1em;}
+h6{font-size: 0.5em;}

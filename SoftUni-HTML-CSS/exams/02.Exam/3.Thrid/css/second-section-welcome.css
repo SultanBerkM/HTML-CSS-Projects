@@ -1,0 +1,46 @@
+.site-welcome{
+    
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    margin: 8em auto;
+}
+.site-welcome header h2:after{
+    display: block;
+    content: '';
+    width: 1.5em;
+    height: 3px;
+    border: 2px;
+    background-color: red;
+    margin: 0 auto;
+    margin-top: 0.3em ;
+}
+.welcome-title{
+    margin: 2em 0;
+    text-align: center;
+}
+.list-cards{
+    display: flex;
+}
+.list-cards .card{
+    flex: 1 1 30%;
+}
+.list-cards .card h5, p{
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+}
+.list-cards .card h5{
+    color: red;
+}
+.list-cards .card p{
+    width: 60%;
+    margin: 0 auto;
+
+}
+.list-cards .card img{
+    margin: 0 auto;
+    height: auto;
+    width: 10%;
+    display: block;
+}
